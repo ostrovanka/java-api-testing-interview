@@ -1,14 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="API Suite">
-    <test name="GET Scenario">
-        <classes>
-            <!-- Include your test classes here -->
-            <class name="com.example.api.TestGetRequest" />
-        </classes>
-    </test>
     <test name="POST Scenario">
         <classes>
-            <class name="com.example.api.TestPostRequest" />
+            <!-- Include your test classes here -->
+            <class name="com.example.ObjectApiTest" />
         </classes>
     </test>
 </suite>
