@@ -1,3 +1,5 @@
 .allure
 .vscode
-target
+java/target
+typescript/node_modules
+typescript/dist
